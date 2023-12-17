@@ -1,0 +1,77 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.cursorBlinking": "expand",
+  // Controls the font family.
+  "editor.fontFamily": "JetBrains Mono",
+  // Enables font ligatures
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.cursorWidth": 3,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
+  "rapidapi.terminalLink.enabled": false,
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-ui-snippets.showNotesOnStartup": false,
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    },
+    {
+      "label": "Mentioned Me",
+      "query": "is:open mentions:${user}"
+    }
+  ],
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "window.zoomLevel": -1,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.useExperimentalGridLayout": true,
+  "workbench.activityBar.location": "top",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition.tag.end.html",
+          "punctuation.definition.tag.begin.html"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#00ffe5"
+        }
+      }
+    ]
+  },
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "php.referencesCodeLens.enabled": true,
+  "php.codeLens.enabled": true,
+  "javascript.codeLens.enabled": true,
+  "editor.codeLens": true,
+  "editor.codeLensFontFamily": "Fira Code",
+  "diffEditor.codeLens": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "codesnap.realLineNumbers": true,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "window.titleBarStyle" : "custom"
+}
