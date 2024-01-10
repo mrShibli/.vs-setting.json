@@ -13,6 +13,7 @@
   "editor.fontSize": 20,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.cursorWidth": 3,
+  "editor.find.cursorMoveOnType": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
   "rapidapi.terminalLink.enabled": false,
@@ -39,7 +40,6 @@
   ],
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "window.zoomLevel": -1,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.useExperimentalGridLayout": true,
   "workbench.activityBar.location": "top",
@@ -48,11 +48,21 @@
       {
         "scope": [
           "punctuation.definition.tag.end.html",
-          "punctuation.definition.tag.begin.html"
+          "punctuation.definition.tag.begin.html",
         ],
         "settings": {
           "fontStyle": "bold",
           "foreground": "#00ffe5"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.tag.end.js.jsx",
+          "punctuation.definition.tag.begin.js.jsx"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#ffffff"
         }
       }
     ]
@@ -73,5 +83,14 @@
   "codesnap.realLineNumbers": true,
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "vscode-great-icons",
-  "window.titleBarStyle" : "custom"
+  "window.titleBarStyle": "custom",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "window.zoomLevel": -1,
+  "editor.matchBrackets": "never",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffffff",
+    "terminalCursor.foreground": "#ffff00"
+}
 }
