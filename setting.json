@@ -6,9 +6,9 @@
   "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
   "editor.cursorBlinking": "expand",
-  // Controls the font family.
+  // Controls the font family!
   "editor.fontFamily": "JetBrains Mono",
-  // Enables font ligatures
+  // Enables font ligatures!
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
   "security.workspace.trust.untrustedFiles": "open",
